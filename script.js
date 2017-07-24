@@ -19,7 +19,7 @@ function getRandomColor(){
         div.style.width = '11.1%';
         div.style.float = 'left';
         div.style.paddingBottom = '11.1%';
-        div.style.backgroundColor = getRandomColor();
+        div.style.background = 'linear-gradient(45deg, #C70039, #FF5733)';
         div.style.backgroundRepeat = 'repeat';
     } else {
       var div = document.createElement('div');
@@ -28,7 +28,7 @@ function getRandomColor(){
           div.style.width = '11.1%';
           div.style.float = 'left';
           div.style.paddingBottom = '11.1%';
-          div.style.backgroundColor = getRandomColor();
+          div.style.background = 'linear-gradient(45deg, #FF5733, #C70039)';
           div.style.backgroundRepeat = 'repeat';
     }
   }
